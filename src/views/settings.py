@@ -1,5 +1,5 @@
 import flet as ft
-from src.models import validate_username, save_user_data
+from models import validate_username, save_user_data
 
 
 def settings_view(page: ft.Page, user_state: dict):
